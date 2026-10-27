@@ -1,3 +1,5 @@
 
 .btn:hover { transform: translateY(-0.125rem); box-shadow: 0 0 1.5rem var(--neon); }
 .grid article:hover { box-shadow: 0 0 1rem var(--neon); }
+
+a:focus-visible, .btn:focus-visible { outline: 0.1875rem solid var(--neon); outline-offset: 0.25rem; }
