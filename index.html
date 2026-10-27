@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Electric Scooter Repair Workshop</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="logo" href="#top">⚡ VoltFix</a>
+  <input type="checkbox" id="menu-toggle" class="menu-toggle">
+  <label for="menu-toggle" class="burger" aria-label="Menu"><span></span><span></span><span></span></label>
+  <nav class="main-nav">
+    <ul>
+      <li><a href="#breakdowns">Breakdowns</a></li>
+      <li><a href="#prices">Prices</a></li>
+      <li><a href="#warranty">Warranty</a></li>
+    </ul>
+    <address>+7 700 000 00 00 · info@voltfix.kz</address>
+    <a class="btn" href="tel:+77000000000">Urgent Master Call</a>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <article>
+      <h1>We Will Fix Your Electric Scooter in 30 Minutes with a Warranty</h1>
+      <p>Tariffs, warranty periods and courier service in one place.</p>
+      <a class="btn btn-big" href="#form">Call a Courier</a>
+    </article>
+  </section>
+
+  <section class="grid-section" id="prices">
+    <h2 id="breakdowns">Price List for Typical Defects</h2>
+    <ul class="grid">
+      <li><article><h3>Battery</h3><p>Cell replacement, BMS diagnostics</p><p class="price">from 25,000 ₸</p><p>Deadline: 2 hours</p></article></li>
+      <li><article><h3>Controller</h3><p>Repair or replacement of the control unit</p><p class="price">from 18,000 ₸</p><p>Deadline: 1 hour</p></article></li>
+      <li><article><h3>Braking System</h3><p>Pads, discs, bleeding</p><p class="price">from 6,000 ₸</p><p>Deadline: 30 minutes</p></article></li>
+    </ul>
+  </section>
+
+  <section class="warranty" id="warranty">
+    <h2>Warranty</h2>
+    <p>3 months on repair work and 6 months on new spare parts.</p>
+  </section>
+
+  <section class="form-section" id="form">
+    <h2>Calculate the Cost</h2>
+    <form action="#" method="get">
+      <label for="model">Scooter Make/Model</label>
+      <input type="text" id="model" name="model" placeholder="Xiaomi M365" required minlength="2">
+      <label for="defect">Defect Description</label>
+      <input type="text" id="defect" name="defect" placeholder="Does not turn on" required minlength="5">
+      <label for="phone">Owner's Phone</label>
+      <input type="tel" id="phone" name="phone" placeholder="+77001234567" pattern="\+?[0-9]{10,12}" required>
+      <button type="submit" class="btn">Calculate</button>
+    </form>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <nav>
+    <ul>
+      <li><a href="#breakdowns">Breakdowns</a></li>
+      <li><a href="#prices">Prices</a></li>
+      <li><a href="#warranty">Warranty</a></li>
+    </ul>
+  </nav>
+  <address>
+    <p>Coordinates: 51.1282° N, 71.4304° E, Astana</p>
+    <p>Reception: Mon–Sat 09:00–20:00, Sun closed</p>
+  </address>
+  <p>© 2026 VoltFix. All rights reserved. Privacy Policy.</p>
+  <label class="theme-switch" for="theme">
+    <input type="checkbox" id="theme"> Light theme
+  </label>
+</footer>
+</body>
+</html>
